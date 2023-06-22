@@ -23,7 +23,7 @@ export default async function UsersPage() {
                 return (
                     <>
                     <p key={user.id}>
-                        <Link href={`/users/${user.id}`} >{user.name} </Link>
+                        <Link href={`/users/${user.id}`}>{user.name} </Link>
                     </p>
                     <br />
                     </>
