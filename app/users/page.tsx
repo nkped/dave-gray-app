@@ -1,13 +1,11 @@
 import React from 'react'
 import type { Metadata } from "next"
-
-export const metaData: Metadata = {
-    title: 'Users'
-}
-
 import getAllUsers from '@/lib/getAllUsers'
 import Link from 'next/link'
 
+/* export const metaData: Metadata = {
+    title: 'Users'
+} */
 
 export default async function UsersPage() {
     const userData: Promise<User[]> = getAllUsers()

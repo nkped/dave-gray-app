@@ -4,7 +4,7 @@
 export default function Home() {
   return (
     <main>
-      <h1>Wellcome to home of butt!</h1>
+      <h1>Wellcome to home of Bart Simpson</h1>
       <Link href='/users'>Users</Link>
 
       
